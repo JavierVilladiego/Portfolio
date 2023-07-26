@@ -1,5 +1,8 @@
 # Portafolio de Javier Villadiego 💻
 
+## LinkedIn
+Encuéntrame en LinkedIn y conéctate conmigo: [Mi Perfil de LinkedIn](https://www.linkedin.com/in/javier-david-villadiego-amaya-289424135/) 
+
 ## Descripción 🔎
 Bienvenido a mi portafolio interactivo. Aquí encontrarás una recopilación de mis proyectos, experiencia laboral y habilidades como ingeniero de sistemas con conocimientos en Excel, Power BI, Python y otros lenguajes de programación.
 
