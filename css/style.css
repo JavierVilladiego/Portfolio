@@ -405,6 +405,9 @@ button:focus {
       .home_banner_area .banner_inner .banner_content .primary_btn {
         margin-right: 20px; }
 
+            
+
+
 .banner_area {
   position: relative;
   z-index: 1;
@@ -3095,7 +3098,10 @@ h6 {
   .home_banner_area .banner_inner .banner_content {
     margin-top: 0px; }
     .home_banner_area .banner_inner .banner_content .primary_btn {
-      display: none; }
+      display: flex;
+      justify-content: center;
+      
+      margin-right: 20px; }}
 
   /* Blog Page Area css
   ============================================================================================ */
