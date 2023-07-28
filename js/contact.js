@@ -6,7 +6,7 @@ $(document).ready(function(){
     
     jQuery.validator.addMethod('answercheck', function (value, element) {
         return this.optional(element) || /^\bcat\b$/.test(value)
-    }, "type the correct answer -_-");
+    }, "escribe la respuesta correcta -_-");
 
     // validate contactForm form
     $(function() {
@@ -35,23 +35,23 @@ $(document).ready(function(){
             },
             messages: {
                 name: {
-                    required: "come on, you have a name, don't you?",
-                    minlength: "your name must consist of at least 2 characters"
+                    required: "Vamos, tienes un nombre, ¿no?",
+                    minlength: "su nombre debe constar de al menos 2 caracteres"
                 },
                 subject: {
-                    required: "come on, you have a subject, don't you?",
-                    minlength: "your subject must consist of at least 4 characters"
+                    required: "vamos, tienes un asunto, no?",
+                    minlength: "su asunto debe constar de al menos 4 caracteres"
                 },
                 number: {
-                    required: "come on, you have a number, don't you?",
-                    minlength: "your Number must consist of at least 5 characters"
+                    required: "vamos, tienes un número, no?",
+                    minlength: "su número debe constar de al menos 5 caracteres"
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "sin correo electrónico, sin mensaje"
                 },
                 message: {
-                    required: "um...yea, you have to write something to send this form.",
-                    minlength: "thats all? really?"
+                    required: "um... sí, tienes que escribir algo para enviar este formulario.",
+                    minlength: "¿eso es todo? en realidad?"
                 }
             },
             submitHandler: function(form) {
