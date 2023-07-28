@@ -75,4 +75,5 @@
   submitButton.addEventListener('click', function (event) {
     event.preventDefault();
     sendForm();
+    form.reset();
   });
