@@ -46,6 +46,10 @@ h6 {
   width: 120px; /* Cambia este valor al tamaño deseado */
   height: auto;
 }
+.g-recaptcha {
+  display: flex;
+  justify-content: center;
+}
 .list {
   list-style: none;
   margin: 0px;
