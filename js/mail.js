@@ -68,6 +68,7 @@
         alert('Hubo un error al enviar el formulario. Por favor, inténtalo de nuevo más tarde.');
       });
     }
+    form.reset();
   }
 
   // Agregar el evento de clic al botón
@@ -75,5 +76,5 @@
   submitButton.addEventListener('click', function (event) {
     event.preventDefault();
     sendForm();
-    form.reset();
+    
   });
