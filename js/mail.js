@@ -61,6 +61,7 @@
         console.log('Formulario enviado:', data);
         alert('¡El formulario se envió correctamente!');
         // Puedes redirigir a una página de éxito o realizar otras acciones aquí
+        form.reset(); // Vaciar el formulario después de enviarlo correctamente
       })
       .catch(error => {
         // Hubo un error al enviar el formulario
@@ -68,7 +69,7 @@
         alert('Hubo un error al enviar el formulario. Por favor, inténtalo de nuevo más tarde.');
       });
     }
-    form.reset();
+    
   }
 
   // Agregar el evento de clic al botón
