@@ -398,15 +398,12 @@ button:focus {
             font-size: 60px; } }
         @media (max-width: 767px) {
           .home_banner_area .banner_inner .banner_content h1 {
-            font-size: 50px; } }
+            font-size: 60px; } }
       .home_banner_area .banner_inner .banner_content h5 {
         font-size: 24px;
         margin-bottom: 35px; }
       .home_banner_area .banner_inner .banner_content .primary_btn {
         margin-right: 20px; }
-
-            
-
 
 .banner_area {
   position: relative;
@@ -3100,8 +3097,8 @@ h6 {
     .home_banner_area .banner_inner .banner_content .primary_btn {
       display: flex;
       justify-content: center;
-      
-      margin-right: 20px; }}
+
+      margin-right: 20px; }
 
   /* Blog Page Area css
   ============================================================================================ */
