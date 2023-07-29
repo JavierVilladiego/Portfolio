@@ -32,7 +32,7 @@ body {
   font-weight: 400;
   color: #777777;
   background: url(../img/body-bg.png) no-repeat center; }
-
+  
 h1,
 h2,
 h3,
@@ -50,11 +50,26 @@ h6 {
   display: flex;
   justify-content: center;
 }
+.img_port{
+  width: 340% !important;
+
+}
+@media (max-width: 991px) {
+  .img_port{
+    width: 100% !important;
+  
+  }
+}
+
 .list {
   list-style: none;
   margin: 0px;
   padding: 0px; }
+.central{
 
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center;
+}
 a {
   text-decoration: none;
   transition: all 0.3s ease-in-out; }
@@ -2727,7 +2742,7 @@ h6 {
       color: #000000;
       font-size: 16px;
       font-weight: 500;
-      width: 97px;
+      width: 150px;
       display: inline-block; }
     .portfolio_details_inner .portfolio_right_text .list li:last-child {
       margin-bottom: 0px; }
