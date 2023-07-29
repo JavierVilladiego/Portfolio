@@ -3100,7 +3100,7 @@ h6 {
     .home_banner_area .banner_inner .banner_content .primary_btn {
       display: flex;
       justify-content: center;
-      margin: 0 59px;
+      margin: 0 ;
       margin-bottom: 10px; 
 
     }
