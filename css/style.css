@@ -3086,12 +3086,10 @@ h6 {
 @media (max-width: 767px) {
   .home_banner_area {
     min-height: 300px; }
-    .d-flex {
+    .primary_flex {
       display: inline-block !important;
-      margin: 0 30px;
-
-      
     }
+      
   .home_banner_area .banner_inner {
     min-height: 300px;
     padding-top: 200px;
