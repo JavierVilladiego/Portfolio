@@ -31,7 +31,7 @@ Sistema de información para el registro, inventario y gestión demográfica de 
 - HTML, CSS y JavaScript
 
 ## Enlace en Vivo
-Puedes ver mi portafolio interactivo en vivo utilizando GitHub Pages. Visita el siguiente enlace: [Portafolio en Vivo](ENLACEGITHUBPAGES)
+Puedes ver mi portafolio interactivo en vivo utilizando GitHub Pages. Visita el siguiente enlace: [Portafolio en Vivo](https://javiervilladiego.github.io/Portfolio/)
 
 ## Licencia
 Este proyecto está bajo la Licencia MIT - consulta el archivo [LICENSE](LICENSE) para obtener más detalles.
